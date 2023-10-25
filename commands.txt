@@ -1,0 +1,10 @@
+migrate create -ext sql -dir internal/db/migrations -seq create_persons_table
+
+
+
+
+-> Controller layer(принимает DTO) 
+-> Business-Logic Layer(принимает Service Model) 
+-> Data storage layer (принимает DAO)
+итого 2 конвертации
+DTO -> Service Model -> DAO
